@@ -35,7 +35,7 @@ const UserDetails = () => {
       <div className="container">
         <h1 className="heading">User Details</h1>
       </div>
-      
+
       <div className='pull-right '>
         <input type="text" className="search-input " placeholder='Search any of values..' value={filter} onChange={handleFilterChange} />
       </div>
